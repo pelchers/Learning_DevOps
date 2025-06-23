@@ -76,6 +76,21 @@ We seek contributions from professionals with proven DevOps experience. Please p
 - **Real-World Context:** Connect examples to actual business scenarios
 - **Troubleshooting:** Include common issues and solutions
 
+#### **Visual Documentation Standards**
+- **Three-Diagram Pattern:** Use our established **gitGraph → sequenceDiagram → flowchart LR** format for Git workflows
+- **Branch Context Visualization:** Flowcharts must show branch groupings with Main/Production at top
+- **Multi-Perspective Learning:** Each diagram provides complementary viewpoints of the same workflow
+- **Consistent Formatting:** Follow the visual patterns established in our Git fundamentals modules
+
+**📋 Example Reference:** See [`04.2-Push_Pull_Team_Practices.md`](../DevOps/01-Fundamentals_And_Environment_Setup/03-Version_Control_Mastery/Git_Fundamentals/04.2-Push_Pull_Team_Practices.md) for the complete three-diagram implementation pattern.
+
+**🎯 Three-Diagram Benefits:**
+1. **GitGraph**: Shows Git commit/branch structure and command context
+2. **SequenceDiagram**: Illustrates actor interactions and team communication flows  
+3. **Flowchart LR**: Displays logical process flow with clear branch groupings and hierarchy
+
+This pattern helps contributors create documentation that serves multiple learning styles and provides comprehensive understanding of complex DevOps workflows from technical, collaborative, and process perspectives.
+
 #### **Industry Standards**
 - **Current Technologies:** Use up-to-date versions and practices
 - **Scalability Considerations:** Address performance and scale implications
@@ -97,6 +112,14 @@ We seek contributions from professionals with proven DevOps experience. Please p
 - CI/CD pipeline templates
 - Monitoring and alerting configurations
 - Security scanning and compliance automation
+
+#### **📊 Visual Workflow Documentation**
+- **Three-Diagram Git Workflows**: Use our **gitGraph → sequenceDiagram → flowchart LR** pattern
+- **Branch-Grouped Process Flows**: Show clear branch hierarchy and team coordination
+- **Multi-Perspective Documentation**: Technical, collaborative, and process views in tandem
+- **Professional Team Patterns**: Document real-world team coordination strategies
+
+**💡 Critical for Contributors:** When documenting any Git-based or team coordination workflow, always implement our three-diagram pattern. This approach has proven highly effective for learner comprehension and mirrors how professionals think about workflows from multiple angles.
 
 #### **📊 Real-World Case Studies**
 - Migration strategies and lessons learned
