@@ -67,6 +67,13 @@ Learning_DevOps/
 │   ├── Git_Commands.md                # Git version control commands
 │   ├── Node_NPM_Commands.md           # Node.js and NPM commands
 │   └── PM2_Commands.md                # Process management commands
+├── Tech_Relationships/                # 🔗 Technology Integration Guides
+│   ├── README.md                      # Technology relationship overview
+│   ├── 00-Git_GitHub_Foundation.md    # Git/GitHub as DevOps foundation
+│   ├── 01-Development_Environment_Relationships.md  # IDE, terminal, package managers
+│   ├── 04-Containerization_Relationships.md         # Docker integration workflows
+│   ├── 06-CI_CD_Pipeline_Relationships.md           # Automation backbone
+│   └── 11-Enterprise_Scale_Relationships.md         # Large-scale DevOps ecosystems
 │
 └── DevOps/                            # 🛠️ Learning Content
     ├── 00-Web_Infrastructure_Fundamentals/  # DNS, Networking, Servers
@@ -180,6 +187,38 @@ The **`/Terminal_Commands`** folder provides comprehensive command references fo
 - **Kubernetes** - Container orchestration and cluster management
 
 **💡 Pro Tip:** Keep these command references bookmarked and use `Ctrl+F` to quickly find specific commands while working through the learning modules!
+
+---
+
+## 🔗 **Technology Relationships Guide**
+
+### **📋 Understanding How DevOps Technologies Connect**
+
+The **`/Tech_Relationships`** folder provides a unique perspective on DevOps learning by focusing on **how technologies integrate and relate to each other** rather than learning them in isolation.
+
+**🎯 Why Relationship-Based Learning Matters:**
+- **Real-world context** - See how Git connects to CI/CD, Docker, and deployment
+- **Mental models** - Build comprehensive understanding of DevOps ecosystems  
+- **Decision guidance** - Understand when and why to use different technology combinations
+- **Progressive complexity** - Follow the natural evolution from simple tools to enterprise systems
+
+**📈 Learning Progression:**
+1. **Foundation** - Git/GitHub as the backbone of all DevOps practices
+2. **Development** - How local development environments integrate with version control
+3. **Containerization** - Docker's role bridging development and production
+4. **Automation** - CI/CD pipelines as the orchestration layer
+5. **Enterprise** - Complex relationships in large-scale production systems
+
+**🔄 Integration with Main Learning Path:**
+- **Before studying a module** - Read the corresponding relationship guide for context
+- **During module study** - Reference how technologies connect to others you've learned
+- **After module completion** - Review how the technology fits into broader systems
+
+**💡 Unique Features:**
+- **Visual diagrams** showing technology connections and data flows
+- **Real-world scenarios** from simple websites to enterprise microservices
+- **Decision trees** helping you choose the right technology combinations
+- **Cross-references** linking to relevant DevOps modules and command references
 
 ---
 

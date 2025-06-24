@@ -188,6 +188,21 @@ Learning_DevOps/
 │   ├── AWS_CLI_Commands.md            # AWS cloud service commands
 │   ├── Linux_Commands.md              # Linux system administration
 │   └── Kubernetes_Commands.md         # Container orchestration commands
+├── Tech_Relationships/                # Technology integration guides
+│   ├── README.md                      # Technology relationship overview
+│   ├── 00-Git_GitHub_Foundation.md    # Git/GitHub as DevOps foundation
+│   ├── 01-Development_Environment_Relationships.md  # IDE, terminal, package managers
+│   ├── 02-Linux_System_Relationships.md            # OS, shells, processes, system tools
+│   ├── 03-Cloud_Infrastructure_Relationships.md    # AWS services and connections
+│   ├── 04-Containerization_Relationships.md        # Docker integration workflows
+│   ├── 05-Application_Deployment_Relationships.md  # Node.js, databases, deployment
+│   ├── 06-CI_CD_Pipeline_Relationships.md          # Automation backbone
+│   ├── 07-Infrastructure_As_Code_Relationships.md  # Terraform, configuration management
+│   ├── 08-Container_Orchestration_Relationships.md # Kubernetes ecosystem connections
+│   ├── 09-Monitoring_Observability_Relationships.md # Logging, metrics, alerting systems
+│   ├── 10-Security_Compliance_Relationships.md     # Security tools and integration
+│   ├── 11-Enterprise_Scale_Relationships.md        # Large-scale DevOps ecosystems
+│   └── 12-Professional_Ecosystem_Relationships.md  # Career paths and technology choices
 │
 └── DevOps/                            # Core learning content
 ├── Learning_Guide.md
