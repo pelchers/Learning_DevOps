@@ -260,6 +260,24 @@ git push [remote] [branch]
 ```
 
 **📤 Push Workflow (Local → Remote):**
+
+#### **ASCII Push Flow (Simple & Fast)**
+```
+main:       A---B---C-------G---H
+                 \         /
+feature-new:      D---E---F
+```
+
+> **🎯 ASCII Push Workflow Explained:**  
+> This text-based diagram shows Git's push workflow using simple characters. The `main` branch progresses (A→B→C→G→H), while the `feature-new` branch is created (D), developed (E→F), then merged back. Each commit represents a git add + commit + push operation, showing how local work gets uploaded to remote repositories.
+>
+> **📍 What Each Letter Represents:**
+> - **A-B** = Initial commits on main branch 
+> - **C** = Push to origin (upload main to remote)
+> - **D-E-F** = Feature development on separate branch
+> - **G** = Merge feature back to main  
+> - **H** = Push merged result to remote
+
 ```mermaid
 gitGraph
     commit id: "add+commit: Feature A"
@@ -406,6 +424,17 @@ git pull [remote] [branch]
 ```
 
 **📥 Pull Workflow (Remote → Local):**
+
+#### **ASCII Pull Flow (Team Sync)**
+```
+main:           A---B-------E---F
+                     \     /
+feature-collab:       C---D
+```
+
+> **🎯 ASCII Pull Workflow Explained:**  
+> Shows pulling remote changes (A-B) and merging with local work. The pull operation fetches remote commits and integrates them with your local branch, keeping everyone synchronized.
+
 ```mermaid
 gitGraph
     commit id: "add+commit: Local work"
